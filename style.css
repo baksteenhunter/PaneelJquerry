@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+}
+    
+body h1{
+    text-align: center
+}
+
+.knoppen {
+    overflow: hidden;
+    border: 5px solid red;
+    
+    
+}
+
+.knoppen li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    background-color: black;
+}
+
+.knoppen li.actief {
+    background-color: orange;
+}
+
+.paneel {
+    display: none;
+}
+
+.paneel.actief {
+    display: block;
+}
+
+.paneel img {
+    max-width: 100%;
+}
+
+.nieuws {
+    position: relative;
+    margin-left: 600px ;
+    width: 500px;
+    height: 800px;
+    border: 10px solid red;
+    padding: 2%;
+}
+
+.nieuws img{
+ border: 5px solid red
+}
+    
+    
